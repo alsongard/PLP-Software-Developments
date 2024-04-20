@@ -3,11 +3,8 @@
     padding:0;
     box-sizing: border-box;
 }
-body{
-    background-color: rgba(148, 26, 136, 0.5);
-}
 .home{
-    width:1000px;
+    width:1200px;
     height: 500px;
     max-width: 100%;
     margin:50px auto;
@@ -42,4 +39,57 @@ span{
 }
 .home p{
     font-size: 18px;
+}
+.gallery{
+    width:1200px;
+    border:2px solid rgba(211, 182, 22, 0.623);
+    max-width: 100%;
+    margin:0 auto;
+    padding:10px;
+}
+.gallery_containter{
+    /* border:4px solid red; */
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:1.2rem;    
+
+}
+#nature-img{
+    width:350px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.Menu{
+    width:1200px;
+    max-width: 100%;
+    margin:50px auto;
+    border:2px solid rgba(211, 182, 22, 0.623);
+    padding:50px 100px;
+}
+ol{
+    padding-left:20px;
+}
+li a{
+    text-decoration: none;
+    color:black;
+}
+.food-sections{
+    margin-top:40px
+}
+.food-sections{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:2rem;
+    justify-self: center;
+}
+figure img{
+    width:300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 3.7px;
 }
