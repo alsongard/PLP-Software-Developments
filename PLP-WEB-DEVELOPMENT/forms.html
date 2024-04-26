@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Assignments</title>
+    <link rel="stylesheet" href="./css/form.css">
+</head>
+<body>
+    <form method="POST" action="#">
+        <label for="name">Name:
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+        </label> 
+        <label for="Date of Birth">Date of Birth:
+            <input type="date" name="data of birth" id="dateofbirth">
+        </label>
+        <fieldset>
+            <legend>Gender</legend>
+            <label for="Gender"></label>
+                <label for="Male"><input type="radio" name="gender" id="Male" value="Male">Male</label>
+                <label for="Female"><input type="radio" name="gender" id="Female" value="Female">Female</label>
+        </fieldset>
+        <fieldset>
+            <legend>Address</legend>
+            <label for="address">Enter Location Address : </label>
+            <input type="alphanumeric" id="address" name="address" placeholder="Enter address of your location">
+        </fieldset>
+        <label for="email">Enter email address :
+            <input type="email" id="email" name="email" placeholder="Enter email address">
+        </label>        
+        <label for="course">
+            <select name="course">
+                <option value="Choose one option">Choose one option</option>
+                <optgroup label="Engineering">
+                    <option value="Choose one" selected>Choose one option</option>
+                    <option value="Computer Science">Computer Science</option>
+                    <option value="Software Engineering">Software Engineering</option>
+                    <option value="Biomedical Science">Biomedical Science</option>
+                    <option value="Internet Communication">Internet Communication</option>
+                </optgroup>
+                <optgroup label="Business Studies">
+                    <option value="Business Commerce">Business Commerce</option>
+                    <option value="Business and Information  Technology">Business and Information  Technology</option>
+                </optgroup>
+            </select>
+        </label>
+        <button type="submit">Register</button>
+        <button type="reset">Cancel</button>
+    </form>
+</body>
+</html>
