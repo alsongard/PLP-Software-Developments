@@ -4,12 +4,10 @@
     box-sizing:border-box;
 }
 body{
-    /* background-color: rgba(201, 161, 161, 0.1);    */
+    background-color: rgb( 149, 165, 166);   
 }
 header{
-    /* position: fixed; */
     height:80px;
-    /* background-color: red; */
     width:100vw;
 }
 header h1{
@@ -18,11 +16,11 @@ header h1{
     text-indent: 20px;
 }
 .introduction{
-    margin:10px 30px;
-    padding:10px;
-    /* background-color: aqua; */
-    /* border:5px solid black; */
-    margin-top: 3px;
+    padding:10px 30px;
+}
+.introduction-container{
+    width:1300px;
+    margin:0 auto;
 }
 .introduction h2{
     padding: 0px 0 1px;
@@ -34,7 +32,6 @@ hr{
     background-color: rgba(240, 29, 29, 0.1);
 }
 .skills{
-    /* border:3px solid black; */
     margin:10px 30px;
     padding:10px;
 }
@@ -45,7 +42,6 @@ hr{
 }
 .skill-subcontainer{
     padding:10px;
-    /* border:3px solid red; */
 }
 ul{
     padding-left:30px;
@@ -54,9 +50,34 @@ ul{
 .contact{
     margin:10px 30px;
     padding:10px;
-    /* border:3px solid black; */
 }
 .contact h2{
 
     padding: 0 0 1px;
 }
+.contact-container{
+    display: flex;
+    gap:3rem;
+    align-items: center;
+    margin-top: 10px;
+}
+.social-icons{
+    display: flex;
+    flex-direction: row;
+}
+.social-icons  a {
+   margin:0 10px;
+}
+.social-icons a i{
+    background-color: white;
+    color:black;
+    font-size: 28px;
+    padding:5px 10px;
+    border-radius: 5px;
+    box-shadow: 0 2x 5px rgba(0, 0, 0, 0.1);
+}
+.social-icons a i:hover{
+    background-color: black;
+    color:white;
+}
+/* border:1px solid black; */
