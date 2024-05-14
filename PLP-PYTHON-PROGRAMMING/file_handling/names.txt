@@ -1,0 +1,2 @@
+Using context manager does not require one to close the file
+as these will be performed automatically
