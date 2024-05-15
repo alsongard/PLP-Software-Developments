@@ -16,6 +16,6 @@ try:
         contents = file.read()
         print(contents)
 except FileNotFoundError:
-    print("Error: File name {} cannot be found, please check again or provide the whole file path".format(myfilej))
+    print("Error: File name {} cannot be found, please check again or provide the whole file path".format(myfile))
 finally:#executed whether error or no error occurs
     print("End of program")
