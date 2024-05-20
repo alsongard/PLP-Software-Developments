@@ -7,5 +7,65 @@
 header{
     background-color: black;
     display: flex;
-    
+    justify-content: space-between;
+    padding:20px 30px;
+    height: 100px;
+    align-items: center;
+}
+.imageHolder{
+    width:70px;
+    /* height: 50px; */
+    border-radius: 50%;
+    /* border:2px solid white; */
+}
+.imageHolder img{
+    width:100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.nav-bar{
+    /* background-color: red; */
+    position: relative;
+    width:500px;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+.nav-bar li a{
+    text-transform: uppercase;
+    font-size: 23px;
+    font-family:roboto;
+    font-weight: 300;
+    text-decoration: none;
+}
+.nav-bar li a::after{
+    content: "";
+    display: block;
+    bottom:0.9px;
+    height: 2px;
+    width:0;
+}
+.nav-bar li a:hover:after{
+    width:90%;
+    background-color:aqua;
+    transition: ease-in 0.5s;
+}
+.nav-bar li a:hover{
+    color:aqua;
+    transition: ease-in 0.5s;
+
+}
+button{
+    padding:8px 20px;
+    color:black;
+    border:none;
+    background-color: aqua;
+    font-size: 17px;
+    font-family: roboto;
+}
+button:hover{
+    color:aqua;
+    background-color: black;
+    border:1px solid aqua;
+    transition: ease-in 0.5s;
 }
