@@ -9,6 +9,7 @@ The following javascript files wil be executed using node
 1. index.js
 1. practise.js
 1. conditions.js
+1. logicalOper.js
 
 
 
