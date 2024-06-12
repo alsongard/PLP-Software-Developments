@@ -33,18 +33,3 @@ print("Adding new column to df")
 df["Salary"] = [1000, 2000, 3000, 4000]
 print(df)
 
-
-# Create a sample dataframe
-data = {
-    'Animal': ['Dog', 'Cat', 'Dog', 'Cat', 'Dog', 'Cat', 'Dog', 'Cat'],
-    'Age': [2, 3, 3, 2, 1, 2, 3, 1],
-    'Weight': [10, 15, 12, 12, 10, 13, 12, 10]
-}
-
-df = pd.DataFrame(data)
-
-# Group the data by the 'Animal' column
-grouped = df.groupby('Animal')
-
-# Now you can perform operations on these groups
-print(grouped.mean())
