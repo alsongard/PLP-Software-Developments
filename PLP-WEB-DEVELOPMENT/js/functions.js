@@ -78,7 +78,7 @@ let myGreet = (new_name="Sarah")=>{
     console.log(`The new student name is ${new_name}`);
 }
 myGreet();
-
+//even without passing the argument the new_name will still be sarah
 
 //single line and multiline functions
 
