@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>title</title>
+    <style>
+        body{
+            background-color: rgba(8, 36, 36, 0.897);
+        }
+    </style>
+</head>
+<body>
+    <form id="form">
+        <label for="test">
+            <input type="text" name="comment" id="comment">
+        </label>
+        <input type="submit" value="submit" >
+    </form>
+    <p id="log"></p>
+
+    <script>
+        const logParagraph = document.getElementById("log");
+        const form  = document.getElementById("form");
+        const submit = document.getElementById("input");
+
+        function changeText(event){
+            console.log(event);
+            console.log(event.timestamp);
+            event.preventDefault();
+            logParagraph.textContent = `Form is submitted at ${event.timeStamp}`;
+        }
+        form.addEventListener("submit", changeText);
+    </script>
+</body>
+</html>
