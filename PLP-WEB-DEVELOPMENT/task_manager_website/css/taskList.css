@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding:5px 20px;
+    background: linear-gradient(to right, rgba(203, 135, 230, 0.9),rgba(162, 18, 224, 0.918));
+}
+div i{
+    font-size: 40px;
+}
+#home{
+    width: 100vw;
+    height: 100vh;
+    background-color: linear-gradient();
+
+}
+.task-container{
+    margin-top:50px;
+    width:800px;
+    max-width: 100%;
+    margin:50px auto;
+    border:10px solid black;
+    padding:50px;
+
+}
+form textarea{
+    margin-bottom:20px;
+    width:100%;
+    padding:5px;
+}
+form input {
+    display: block;
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+form input[type="submit"]{
+    width: 100%;
+    margin:0 auto;/*center block elements use auto on left and  right*/
+    font-size: 14px;
+    text-transform: uppercase;
+    border: none;
+    transition: ease-in-out 0.70s;
+}
+form input[type="submit"]:hover{
+    background-color:rgba(162, 18, 224, 0.918)
+}
